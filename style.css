@@ -1,3 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
+
+    background-image: url(sfondo.png);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-inline: auto;
+    max-width: 600px;
+    min-width: 300px;
+    background-position: right;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+
+}
+ul,ol{
+    padding-left: 1cm;
+}
+
+article{
+    font-family: 'Poppins', sans-serif; 
+    padding: 20px;
+}
+    
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+h2{
+    font-size: larger;
+    font-weight: bolder;
+}
+main{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+header{
+    background-image: linear-gradient(to top right, #0edfff 0%, #2cbed9 50%, #0e85ee 100%);
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    margin-top: 1em;
+}
+table{
+    border-bottom: solid cornflowerblue;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 5cm;
+}
+.specialtr{
+    background-color: cornflowerblue;
+}
+.specialp{
+    font-style: oblique;
+    color: lightslategrey;
+}
+.greytr{
+    background-color: rgb(208, 202, 202);
+        border-top: solid lightgrey;
+        border-bottom: solid lightgrey;
+}
+frame{
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-inline: auto;
+}
+img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divgrigio{
+    background-color: rgb(225, 225, 225);
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 3cm;
+}
+footer{
+    text-align: center;
+    background-color: navy;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1em;
+}
+button{
+    background: #2b8dff;
+    font-family: 'Poppins';
+}
+caption{
+    font-weight: bolder;
+    font-style: oblique;
 }
